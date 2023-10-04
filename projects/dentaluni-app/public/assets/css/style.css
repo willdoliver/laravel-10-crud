@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
+
+body {
+    font-family: 'Gabarito', sans-serif;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+}
+
+button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+select {
+    width: 11em;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}
+
+.active {
+    color: seagreen;
+}
+
+.search {
+    padding: 1em 0em;
+}
+
+#search {
+    width: 20%;
+}
+
+.pagination {
+    padding: 2em 0em;
+}
+
+.especialidades {
+    margin-top: 2em;
+}
+
+.edition-table tr td{
+    border: none;
+}
+
+.table-button {
+    height: auto;
+    width: fit-content;
+}

@@ -33,7 +33,7 @@ services:
       command: --default-authentication-plugin=mysql_native_password
       environment:
         MYSQL_ROOT_PASSWORD: root
-        MYSQL_DATABASE: test_db
+        MYSQL_DATABASE: processoSeletivo2021_William_Souza
         MYSQL_USER: devuser
         MYSQL_PASSWORD: devpass
       ports:

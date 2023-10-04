@@ -2,7 +2,7 @@
 $host = 'db';
 $user = 'devuser';
 $password = 'devpass';
-$db = 'test_db';
+$db = 'processoSeletivo2021_William_Souza';
 
 $conn = new mysqli($host, $user, $password, $db);
 if ($conn->connect_error){
